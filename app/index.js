@@ -9,8 +9,8 @@ app.get('/', (req, res) => {
 app.get('/user', (req,res) => {
   console.log(req.params)
   res.json({
-    username: 'MrGRA',
-    email: 'mrgra@icloud.com'
+    username: '',
+    email: ''
   })
 })
 
